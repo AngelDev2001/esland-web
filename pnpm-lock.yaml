@@ -17,6 +17,9 @@ importers:
       '@fontsource-variable/onest':
         specifier: ^5.1.1
         version: 5.1.1
+      '@justinribeiro/lite-youtube':
+        specifier: ^1.6.0
+        version: 1.6.0
       astro:
         specifier: ^5.1.1
         version: 5.1.1(jiti@1.21.7)(rollup@4.29.1)(typescript@5.7.2)(yaml@2.6.1)
@@ -506,6 +509,9 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
+
+  '@justinribeiro/lite-youtube@1.6.0':
+    resolution: {integrity: sha512-gq+um2I/Q2rZYhvP9X7NVX36zFE7Lkz8V7ZNU4cPgDuN9a+2dA95PQhF4dCqIag8XspLN9lwrObIW6U0Y5moqA==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -2333,6 +2339,8 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  '@justinribeiro/lite-youtube@1.6.0': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:

@@ -1,5 +1,5 @@
 ---
-import '@fontsource-variable/onest';
+import "@fontsource-variable/onest";
 
 interface Props {
   title: string;
@@ -30,11 +30,11 @@ const { title, description } = Astro.props;
   }
 
   html {
-    font-family: 'Onest Variable', sans-serif;
+    font-family: "Onest Variable", sans-serif;
     background: #111e31;
   }
 
-  p{
+  p {
     color: rgba(255, 255, 255, 0.9);
     line-height: 1.4;
     margin-bottom: 1em;
@@ -43,8 +43,24 @@ const { title, description } = Astro.props;
     letter-spacing: 0.5px;
   }
 
-  p strong{
+  p strong {
     color: white;
     font-weight: 700;
+  }
+
+  #header-nav {
+    animation: blur linear both;
+    animation-timeline: scroll();
+    animation-range: 0 500px;
+  }
+
+  @keyframes blur {
+    to {
+      box-shadow:
+        0px 5px 50px -5px hsla(0, 0%, 100%, 0.1),
+        0px 0px 0 1px hsla(0, 0%, 100%, 0.1);
+      background: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+    }
   }
 </style>
